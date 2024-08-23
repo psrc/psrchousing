@@ -1,0 +1,20 @@
+Package: psrchousing
+Type: Package
+Title: Process data used for Housing Trends
+Version: 1.0.0
+Authors@R: c(
+    person("Craig", "Helmann", email = "chelmann@psrc.org", role = "cre"))
+Maintainer: Craig Helmann <chelmann@psrc.org>
+Description: Various functions to process housing data in the Central Puget Sound Region.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rlang,
+    dplyr,
+    tidyr,
+    stringr,
+    tidyselect,
+    openxlsx,
+    psrcelmer
+RoxygenNote: 7.3.1
